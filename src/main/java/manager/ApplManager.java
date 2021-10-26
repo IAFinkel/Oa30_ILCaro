@@ -13,7 +13,7 @@ public class ApplManager {
         return helperUser;
     }
 
-    public void init(){
+    public void init() {
         wd = new ChromeDriver();
         wd.manage().window().maximize();
         wd.navigate().to("https://ilcarro.xyz/search");
@@ -21,7 +21,7 @@ public class ApplManager {
         helperUser = new HelperUser(wd);
     }
 
-    public void stop(){
+    public void stop() {
         wd.quit();
     }
 }
