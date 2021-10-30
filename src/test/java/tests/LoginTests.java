@@ -32,6 +32,31 @@ public class LoginTests extends TestBase {
 
     }
 
+    @Test
+    public void wrongEmail(){
+        User user = new User().withEmail("goodwin49mail.ru").withPassword("Car12345");
+
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        Assert.assertFalse(app.getHelperUser().yallaIsEnabled());
+        Assert.assertTrue(app.getHelperUser().errorMessageWrongEmail());
+        Assert.assertFalse(app.getHelperUser().isLogged());
+
+
+    }
+
+    @Test
+    public void wrongPass(){
+        User user = new User().withEmail("goodwin49@mail.ru").withPassword("ar12345");
+        app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(user);
+        app.getHelperUser().submitLogin();
+        Assert.assertTrue(app.getHelperUser().authorizErrorWindowDisplayed());
+        Assert.assertTrue(app.getHelperUser().errorMessageWrongEmailorPassword());
+        Assert.assertFalse(app.getHelperUser().isLogged());
+
+    }
+
     @AfterMethod
     public void postCondition() {
         app.getHelperUser().clickOkButton();

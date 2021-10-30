@@ -66,5 +66,21 @@ public class HelperUser extends HelperBase {
             click(By.xpath("//button[text()='Ok']"));
         }
     }
+
+    public boolean yallaIsEnabled(){
+        return wd.findElement(By.xpath("//button[@type='submit']")).isEnabled();
+    }
+    public boolean errorMessageWrongEmail(){
+        String error = wd.findElement(By.xpath("//div[contains(text(),\"It'snot\")]")).getText();
+        return error.contains("It'snot look like email");
+    }
+    public boolean authorizErrorWindowDisplayed(){
+        return wd.findElement(By.xpath("//mat-dialog-container")).isDisplayed();
+    }
+    public boolean errorMessageWrongEmailorPassword(){
+        String error = wd.findElement(By.xpath("//mat-dialog-container//h2")).getText();
+        return error.contains("Wrong email or password");
+    }
+
 }
 
