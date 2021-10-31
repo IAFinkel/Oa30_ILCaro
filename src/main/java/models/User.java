@@ -9,6 +9,16 @@ public class User {
     private String name;
     private String lastname;
 
+    @Override
+    public String toString() {
+        return "User{" +
+                "email='" + email + '\'' +
+                ", password='" + password + '\'' +
+                ", name='" + name + '\'' +
+                ", lastname='" + lastname + '\'' +
+                '}';
+    }
+
     public User withEmail(String email) {
         this.email = email;
         return this;

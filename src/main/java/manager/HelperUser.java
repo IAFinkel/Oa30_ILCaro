@@ -3,6 +3,7 @@ package manager;
 import models.User;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
@@ -28,7 +29,10 @@ public class HelperUser extends HelperBase {
 
     public void submitLogin() {
 
-        click(By.xpath("//button[@type='submit']"));
+       // click(By.xpath("//button[@type='submit']"));
+        WebElement submit = wd.findElement(By.xpath("//button[@type='submit']"));
+        new WebDriverWait(wd, 10).until(ExpectedConditions.elementToBeClickable(submit));
+        submit.submit();
     }
 
     public void submitLogin2() {
@@ -80,6 +84,19 @@ public class HelperUser extends HelperBase {
     public boolean errorMessageWrongEmailorPassword(){
         String error = wd.findElement(By.xpath("//mat-dialog-container//h2")).getText();
         return error.contains("Wrong email or password");
+    }
+    public boolean isLoginPresent() {
+        return isElementPresent(By.xpath("//a[text()=' Log in ']"));
+    }
+
+    public void login(User user){
+        openLoginRegistrationForm();
+        fillLoginRegistrationForm(user);
+        submitLogin();
+        clickOkButton();
+        pause(1000);
+
+
     }
 
 }
