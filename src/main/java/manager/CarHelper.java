@@ -75,4 +75,10 @@ public class CarHelper extends HelperBase{
     public boolean carAddedSuccessfull(){
         return isElementPresent(By.xpath("//div//h2[contains(.,'successful')]"));
     }
+    public void ClickAddAnotherCar(){
+        click(By.xpath("//div//button[text()='Add another car']"));
+    }
+    public void logOut(){
+        click(By.xpath("//a[text()=' Logout ']"));
+    }
 }

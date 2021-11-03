@@ -99,5 +99,28 @@ public class HelperUser extends HelperBase {
 
     }
 
+    public void openRegistrationForm() {
+        click(By.xpath("//a[@href='/registration?url=%2Fsearch']"));
+    }
+
+    public void fillRegistrationForm(User newUser) {
+        type(By.xpath("//input[@autocomplete='name']"), newUser.getName());
+        type(By.xpath("//input[@autocomplete='family-name']"), newUser.getLastname());
+        type(By.xpath("//input[@autocomplete='email']"), newUser.getEmail());
+        type(By.xpath("//input[@autocomplete='new-password']"), newUser.getPassword());
+
+        //click(By.xpath("//input[@class='ng-dirty ng-touched ng-invalid']"));
+
+    }
+
+    public void submitRegistration() {
+        click(By.xpath("//button[@type='submit']"));
+    }
+
+    public boolean RegistrationSucces() {
+        WebDriverWait wait = new WebDriverWait(wd,10);
+        wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//h2[text()='You are logged in success']"))));
+        return wd.findElement(By.xpath("//h2[text()='You are logged in success']")).getText().contains("success");
+    }
 }
 
