@@ -1,11 +1,13 @@
 package manager;
 
 import models.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
+import org.openqa.selenium.interactions.Action;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import javax.swing.*;
 
 public class HelperUser extends HelperBase {
     public HelperUser(WebDriver wd) {
@@ -109,7 +111,6 @@ public class HelperUser extends HelperBase {
         type(By.xpath("//input[@autocomplete='email']"), newUser.getEmail());
         type(By.xpath("//input[@autocomplete='new-password']"), newUser.getPassword());
 
-        //click(By.xpath("//input[@class='ng-dirty ng-touched ng-invalid']"));
 
     }
 
@@ -121,6 +122,29 @@ public class HelperUser extends HelperBase {
         WebDriverWait wait = new WebDriverWait(wd,10);
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//h2[text()='You are logged in success']"))));
         return wd.findElement(By.xpath("//h2[text()='You are logged in success']")).getText().contains("success");
+    }
+
+    public void checkPolicy() {
+        //click(By.xpath("//input[@class='ng-dirty ng-touched ng-invalid']"));
+        // click(By.xpath("//label[contains(text(),'I agree to the')]"));
+        //click(By.cssSelector(".checkbox-container"));
+
+        //нахождение элеменета с помощью Java Script
+        JavascriptExecutor js = (JavascriptExecutor) wd;
+        js.executeScript("document.querySelector('#terms-of-use').click();");
+        js.executeScript("document.querySelector('#terms-of-use').checked=true;");
+
+        //нажатие в определенное место элемента по координатам
+        Actions actions = new Actions(wd);
+        WebElement container = wd.findElement(By.cssSelector(".checkbox-container"));
+        Rectangle rect = container.getRect();
+//        int x = rect.getX() + rect.getWidth()/10;
+//        int x = rect.getX() + 2%;
+        int x = rect.getX() + 5;
+        int y = rect.getY()+(1/4*rect.getHeight());
+
+        actions.moveByOffset(x,y).click().perform();
+
     }
 }
 

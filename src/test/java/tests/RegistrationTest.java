@@ -17,12 +17,14 @@ public class RegistrationTest extends TestBase {
 
     @Test
     public void regTestPositive(){
-        User newUser = new User().withEmail("asdh12@gmail.com").withPassword("Qwery1234").withName("Ilia")
+        int i = (int)((System.currentTimeMillis()/1000)%3600);
+        User newUser = new User().withEmail("asdh"+i+"@gmail.com").withPassword("Qwery1234").withName("Ilia")
                 .withLastname("Petrov");
 
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().
                 fillRegistrationForm(newUser);
+        app.getHelperUser().checkPolicy();
         app.getHelperUser().submitRegistration();
 
         Assert.assertTrue(app.getHelperUser().RegistrationSucces());
