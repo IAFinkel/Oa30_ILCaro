@@ -1,0 +1,8 @@
+21:49:52 INFO  manager.ApplManager - Tests starts on Chrome Driver
+21:50:13 INFO  tests.TestBase - Test Login Positive starts with email-->goodwin49@mail.ru
+21:50:13 INFO  tests.TestBase - Test Login Positive starts with password-->Car12345
+21:50:16 INFO  tests.TestBase - Test Login Negative wrong email starts with email-->goodwin49mail.ru
+21:50:16 INFO  tests.TestBase - Test Login Negative wrong email starts with password-->Car12345
+21:51:02 INFO  tests.TestBase - Test Login Negative wrong password starts with email-->goodwin49@mail.ru
+21:51:02 INFO  tests.TestBase - Test Login Negative wrong password starts with password-->ar12345
+21:51:18 INFO  manager.ApplManager - Tests passed

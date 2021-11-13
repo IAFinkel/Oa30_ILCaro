@@ -20,6 +20,8 @@ public class RegistrationTest extends TestBase {
         int i = (int)((System.currentTimeMillis()/1000)%3600);
         User newUser = new User().withEmail("asdh"+i+"@gmail.com").withPassword("Qwery1234").withName("Ilia")
                 .withLastname("Petrov");
+        logger.info("Test Registration Positive starts with email--->"+newUser.getEmail());
+        logger.info("Test Registration Positive starts with password--->"+newUser.getPassword());
 
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().

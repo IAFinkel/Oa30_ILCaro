@@ -1,0 +1,4 @@
+21:38:45 INFO  manager.ApplManager - Tests starts on Chrome Driver
+21:39:03 INFO  tests.TestBase - Test Registration Positive starts with email--->asdh2343@gmail.com
+21:39:03 INFO  tests.TestBase - Test Registration Positive starts with password--->Qwery1234
+21:39:05 INFO  manager.ApplManager - Tests passed
