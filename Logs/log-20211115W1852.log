@@ -1,0 +1,34 @@
+18:52:08 INFO  manager.ApplManager - Tests starts on Chrome Driver
+18:52:13 INFO  tests.TestBase - Start test--->test
+18:52:13 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:52:28 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:52:28 INFO  tests.TestBase - Test Login Positive starts with email-->goodwin49@mail.ru
+18:52:28 INFO  tests.TestBase - Test Login Positive starts with password-->Car12345
+18:52:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+18:52:28 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+18:52:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+18:52:28 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+18:52:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: input[@autocomplete='current-password']
+18:52:43 INFO  manager.MyListener - Something went wrong
+18:52:43 INFO  manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"input[@autocomplete='current-password']"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 524237a03a6fca2d20f115d7df72ffa1
+*** Element info: {Using=xpath, value=input[@autocomplete='current-password']}
+18:52:43 INFO  manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"input[@autocomplete='current-password']"}
+  (Session info: chrome=95.0.4638.69)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:55960}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 524237a03a6fca2d20f115d7df72ffa1
+*** Element info: {Using=xpath, value=input[@autocomplete='current-password']}
+18:52:44 INFO  manager.MyListener - This link to the screenshot with error-->src/test/screenshots/screenshot-3163.png
+18:52:44 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:52:59 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:52:59 INFO  tests.TestBase - The end of test--->test

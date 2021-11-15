@@ -1,0 +1,8 @@
+20:17:47 INFO  manager.ApplManager - Tests starts on Chrome Driver
+20:17:54 INFO  tests.TestBase - Start test--->test
+20:18:10 INFO  manager.NGListener - Start tests-->null
+20:18:10 INFO  tests.TestBase - Test Login Positive starts with email-->goodwin49@mail.ru
+20:18:10 INFO  tests.TestBase - Test Login Positive starts with password-->Car12345
+20:18:12 INFO  manager.NGListener - Success test-->null
+20:18:12 INFO  tests.TestBase - The end of test--->test
+20:18:12 INFO  manager.ApplManager - Tests passed
