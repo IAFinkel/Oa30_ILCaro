@@ -48,6 +48,6 @@ public class ApplManager {
     }
 
     public void stop() {
-        //wd.quit();
+        wd.quit();
     }
 }
