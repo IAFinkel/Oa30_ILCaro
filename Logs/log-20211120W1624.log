@@ -1,0 +1,27 @@
+16:24:32 INFO  manager.ApplManager - Tests starts on Chrome Driver
+16:24:46 INFO  tests.TestBase - Start test--->findYourCarPositive
+16:24:46 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+16:24:46 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+16:24:46 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+16:24:46 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+16:24:47 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+16:24:47 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+16:24:47 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+16:24:47 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+16:24:48 ERROR manager.MyListener - Something went wrong
+16:24:48 ERROR manager.MyListener - element click intercepted: Element <input _ngcontent-pkb-c72="" formcontrolname="dates" id="dates" class="ng-touched ng-dirty ng-valid" aria-haspopup="dialog" min="2021-11-20" max="2022-11-20" aria-owns="sat-datepicker-0"> is not clickable at point (250, 363). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56874}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f007eb06cc926330989d19e3ffb0f8b4
+16:24:48 ERROR manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <input _ngcontent-pkb-c72="" formcontrolname="dates" id="dates" class="ng-touched ng-dirty ng-valid" aria-haspopup="dialog" min="2021-11-20" max="2022-11-20" aria-owns="sat-datepicker-0"> is not clickable at point (250, 363). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56874}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: f007eb06cc926330989d19e3ffb0f8b4
+16:24:49 INFO  manager.MyListener - This link to the screenshot with error-->src/test/resources/screenshots/screenshot-1488.png
+16:24:49 INFO  tests.TestBase - The end of test--->findYourCarPositive

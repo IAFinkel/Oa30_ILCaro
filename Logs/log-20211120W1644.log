@@ -1,0 +1,9 @@
+16:44:37 INFO  manager.ApplManager - Tests starts on Chrome Driver
+16:44:45 INFO  tests.TestBase - Start test--->findYourCarPositive
+16:44:45 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+16:44:45 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+16:44:45 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+16:44:46 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+16:44:46 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+16:44:46 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+16:44:46 INFO  tests.TestBase - The end of test--->findYourCarPositive

@@ -8,14 +8,14 @@ import org.testng.annotations.Test;
 
 public class RegistrationTest extends TestBase {
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition() {
         if (app.getHelperUser().isLogged()) {
             app.getHelperUser().logout();
         }
     }
 
-    @Test
+    @Test(groups = {"web"})
     public void regTestPositive(){
         int i = (int)((System.currentTimeMillis()/1000)%3600);
         User newUser = new User().withEmail("asdh"+i+"@gmail.com").withPassword("Qwery1234").withName("Ilia")
@@ -33,7 +33,7 @@ public class RegistrationTest extends TestBase {
 
     }
 
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void postCondition() {
         app.getHelperUser().clickOkButton();
 

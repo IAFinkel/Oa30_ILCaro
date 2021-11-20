@@ -1,0 +1,27 @@
+18:59:30 INFO  manager.ApplManager - Tests starts on Chrome Driver
+18:59:34 INFO  tests.TestBase - Start test--->regTestPositive
+18:59:34 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:59:49 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:59:49 INFO  tests.TestBase - Test Registration Positive starts with email--->asdh3589@gmail.com
+18:59:49 INFO  tests.TestBase - Test Registration Positive starts with password--->Qwery1234
+18:59:49 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href='/registration?url=%2Fsearch']
+18:59:49 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href='/registration?url=%2Fsearch']was found
+18:59:49 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='name']
+18:59:49 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='name']was found
+18:59:49 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='family-name']
+18:59:49 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='family-name']was found
+18:59:50 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='email']
+18:59:50 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='email']was found
+18:59:50 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='new-password']
+18:59:50 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='new-password']was found
+18:59:50 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:59:50 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:59:50 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //h2[text()='You are logged in success']
+18:59:51 INFO  manager.MyListener - The element with locator-->By.xpath: //h2[text()='You are logged in success']was found
+18:59:51 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //h2[text()='You are logged in success']
+18:59:51 INFO  manager.MyListener - The element with locator-->By.xpath: //h2[text()='You are logged in success']was found
+18:59:51 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:59:51 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:59:51 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:59:51 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:59:51 INFO  tests.TestBase - The end of test--->regTestPositive

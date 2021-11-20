@@ -1,0 +1,27 @@
+16:22:47 INFO  manager.ApplManager - Tests starts on Chrome Driver
+16:23:01 INFO  tests.TestBase - Start test--->findYourCarPositive
+16:23:01 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+16:23:01 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+16:23:01 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+16:23:03 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+16:23:04 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+16:23:04 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+16:23:04 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+16:23:04 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+16:23:05 ERROR manager.MyListener - Something went wrong
+16:23:05 ERROR manager.MyListener - element click intercepted: Element <button _ngcontent-wvf-c72="" type="submit">...</button> is not clickable at point (183, 412). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bff44049c89f70bb8f8f18b375dcdc72
+16:23:05 ERROR manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-wvf-c72="" type="submit">...</button> is not clickable at point (183, 412). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56753}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: bff44049c89f70bb8f8f18b375dcdc72
+16:23:06 INFO  manager.MyListener - This link to the screenshot with error-->src/test/resources/screenshots/screenshot-1385.png
+16:23:06 INFO  tests.TestBase - The end of test--->findYourCarPositive

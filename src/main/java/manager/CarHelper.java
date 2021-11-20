@@ -2,12 +2,15 @@ package manager;
 
 import models.Car;
 import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class CarHelper extends HelperBase{
+public class CarHelper extends HelperBase {
     public CarHelper(WebDriver wd) {
         super(wd);
     }
@@ -18,48 +21,45 @@ public class CarHelper extends HelperBase{
     }
 
     public void fillCarForm(Car car) {
-        if(isCarCreationFormPresent()){
+        if (isCarCreationFormPresent()) {
             typeLocation(car.getAdress());
-            type(By.id("make"),car.getMake());
-            type(By.id("model"),car.getModel());
-            type(By.id("year"),car.getYear());
-            type(By.id("engine"),car.getEngine());
+            type(By.id("make"), car.getMake());
+            type(By.id("model"), car.getModel());
+            type(By.id("year"), car.getYear());
+            type(By.id("engine"), car.getEngine());
 
-            select(By.id("fuel"),car.getFuel());
-            select(By.id("gear"),car.getGear());
-            select(By.id("wheelsDrive"),car.getWD());
+            select(By.id("fuel"), car.getFuel());
+            select(By.id("gear"), car.getGear());
+            select(By.id("wheelsDrive"), car.getWD());
 
-            type(By.id("doors"),car.getDoors());
-            type(By.id("seats"),car.getSeats());
-            type(By.id("class"),car.getClasS());
-            type(By.id("fuelConsumption"),car.getFuelConsumption());
-            type(By.id("serialNumber"),car.getCarRegNumber());
-            type(By.id("price"),car.getPrice());
-            type(By.id("distance"),car.getDistanceIncluded());
-            type(By.cssSelector(".feature-input"),car.getTypeFeature());
+            type(By.id("doors"), car.getDoors());
+            type(By.id("seats"), car.getSeats());
+            type(By.id("class"), car.getClasS());
+            type(By.id("fuelConsumption"), car.getFuelConsumption());
+            type(By.id("serialNumber"), car.getCarRegNumber());
+            type(By.id("price"), car.getPrice());
+            type(By.id("distance"), car.getDistanceIncluded());
+            type(By.cssSelector(".feature-input"), car.getTypeFeature());
             type(By.id("about"), car.getAbout());
-
-
-
 
 
         }
     }
 
-    private void select(By locator, String option) {
+    public void select(By locator, String option) {
         //new Select(wd.findElement(locator)).selectByIndex(2);
         new Select(wd.findElement(locator)).selectByValue(option);
 //        new Select(wd.findElement(locator)).selectByVisibleText("");
 
     }
 
-    private void typeLocation(String address) {
-        type(By.id("pickUpPlace"),address);
+    public void typeLocation(String address) {
+        type(By.id("pickUpPlace"), address);
         click(By.cssSelector("div.pac-item"));
         pause(500);
     }
 
-    private boolean isCarCreationFormPresent() {
+    public boolean isCarCreationFormPresent() {
         Boolean isForm = new WebDriverWait(wd, 10)
                 .until(ExpectedConditions.textToBePresentInElement
                         (wd.findElement(By.cssSelector("h2")),
@@ -72,13 +72,64 @@ public class CarHelper extends HelperBase{
 
     }
 
-    public boolean carAddedSuccessfull(){
+    public boolean carAddedSuccessfull() {
         return isElementPresent(By.xpath("//div//h2[contains(.,'successful')]"));
     }
-    public void ClickAddAnotherCar(){
+
+    public void ClickAddAnotherCar() {
         click(By.xpath("//div//button[text()='Add another car']"));
     }
-    public void logOut(){
+
+    public void logOut() {
         click(By.xpath("//a[text()=' Logout ']"));
     }
+
+    public void typeCity(String address) {
+        type(By.xpath("//input[@id='city']"), address);
+        click(By.cssSelector("div.pac-item"));
+        pause(500);
+    }
+
+    public void typeDate(String date) {
+        if (date != null && !date.isEmpty()) {
+            WebElement element = wd.findElement(By.xpath("(//input[@id='dates'])[1]"));
+            element.sendKeys(date);
+
+        }
+
+    }
+    public boolean carsAreDisplayed() {
+        return isElementPresent(By.cssSelector(".car-img-container.ng-star-inserted"));
+    }
+
+    public void selectDate() {
+            WebElement element = wd.findElement(By.xpath("(//input[@id='dates'])[1]"));
+            element.click();
+            click(By.xpath("//div[text()= 21 ]"));
+            click(By.xpath("//div[text()= 25 ]"));
+
+    }
+
+    public void selectDate2(String date) {//"28-30"
+
+        WebElement element = wd.findElement(By.xpath("(//input[@id='dates'])[1]"));
+        element.click();
+
+        String[] str = date.split("-");
+        WebElement date1 = wd.findElement(By.xpath("//div[text()= "+str[0]+" ]"));
+
+        if(date1.isEnabled()){
+           date1.click();
+        }
+
+        WebElement date2 = wd.findElement(By.xpath("//div[text()= "+str[1]+" ]"));
+        if(date2.isEnabled()){
+            date2.click();
+        }
+
+    }
+
+
+
+
 }

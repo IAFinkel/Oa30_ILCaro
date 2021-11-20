@@ -1,0 +1,48 @@
+18:44:23 INFO  manager.ApplManager - Tests starts on Chrome Driver
+18:44:30 INFO  tests.TestBase - Start test--->findYourCarPositive3
+18:44:30 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+18:44:30 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+18:44:30 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+18:44:30 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+18:44:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+18:44:31 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+18:44:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 28 ]
+18:44:31 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 28 ]was found
+18:44:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 30 ]
+18:44:31 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 30 ]was found
+18:44:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:44:31 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:44:31 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .car-img-container.ng-star-inserted
+18:44:32 INFO  manager.MyListener - The element with locator-->By.cssSelector: .car-img-container.ng-star-insertedwas found
+18:44:32 INFO  tests.TestBase - The end of test--->findYourCarPositive3
+18:45:01 INFO  manager.ApplManager - Tests starts on Chrome Driver
+18:45:15 INFO  tests.TestBase - Start test--->findYourCarPositive3
+18:45:15 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+18:45:15 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+18:45:15 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+18:45:16 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+18:45:17 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+18:45:17 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+18:45:17 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 18 ]
+18:45:17 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 18 ]was found
+18:45:17 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 30 ]
+18:45:17 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 30 ]was found
+18:45:17 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:45:17 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:45:18 ERROR manager.MyListener - Something went wrong
+18:45:18 ERROR manager.MyListener - element click intercepted: Element <button _ngcontent-aya-c72="" type="submit" disabled="">...</button> is not clickable at point (183, 432). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b7fb5403bf113537309f68848356f766
+18:45:18 ERROR manager.MyListener - org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <button _ngcontent-aya-c72="" type="submit" disabled="">...</button> is not clickable at point (183, 432). Other element would receive the click: <div class="cdk-overlay-backdrop mat-overlay-transparent-backdrop cdk-overlay-backdrop-showing"></div>
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:62868}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b7fb5403bf113537309f68848356f766
+18:45:19 INFO  manager.MyListener - This link to the screenshot with error-->src/test/resources/screenshots/screenshot-2718.png
+18:45:19 INFO  tests.TestBase - The end of test--->findYourCarPositive3

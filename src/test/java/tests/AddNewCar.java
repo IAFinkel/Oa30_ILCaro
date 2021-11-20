@@ -14,14 +14,14 @@ public class AddNewCar extends TestBase {
     //attach photo
     //submit form
 
-    @BeforeMethod
+    @BeforeMethod(alwaysRun = true)
     public void precondition() {
         if (app.getHelperUser().isLoginPresent()) {
             app.getHelperUser().login(new User().withEmail("goodwin49@mail.ru").withPassword("Car12345"));
         }
     }
 
-    @Test
+    @Test(groups = {"web"})
     public void addNewCarTestPositive() {
         int i = (int) ((System.currentTimeMillis() / 1000) % 36000);
         Car car = Car.builder()
@@ -89,7 +89,7 @@ public class AddNewCar extends TestBase {
         Assert.assertTrue(app.getCar().carAddedSuccessfull());
 
     }
-    @AfterMethod
+    @AfterMethod(alwaysRun = true)
     public void logout(){
         app.getCar().ClickAddAnotherCar();
         app.getCar().logOut();

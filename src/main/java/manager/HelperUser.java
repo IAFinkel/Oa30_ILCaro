@@ -135,15 +135,15 @@ public class HelperUser extends HelperBase {
         js.executeScript("document.querySelector('#terms-of-use').checked=true;");
 
         //нажатие в определенное место элемента по координатам
-        Actions actions = new Actions(wd);
-        WebElement container = wd.findElement(By.cssSelector(".checkbox-container"));
-        Rectangle rect = container.getRect();
-//        int x = rect.getX() + rect.getWidth()/10;
-//        int x = rect.getX() + 2%;
-        int x = rect.getX() + 5;
-        int y = rect.getY()+(1/4*rect.getHeight());
-
-        actions.moveByOffset(x,y).click().perform();
+//        Actions actions = new Actions(wd);
+//        WebElement container = wd.findElement(By.cssSelector(".checkbox-container"));
+//        Rectangle rect = container.getRect();
+////        int x = rect.getX() + rect.getWidth()/10;
+////        int x = rect.getX() + 2%;
+//        int x = rect.getX() + 5;
+//        int y = rect.getY()+(1/4*rect.getHeight());
+//
+//        actions.moveByOffset(x,y).click().perform();
 
     }
 }
