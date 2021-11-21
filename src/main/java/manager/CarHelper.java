@@ -2,13 +2,13 @@ package manager;
 
 import models.Car;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+
+import java.time.LocalDate;
 
 public class CarHelper extends HelperBase {
     public CarHelper(WebDriver wd) {
@@ -98,15 +98,16 @@ public class CarHelper extends HelperBase {
         }
 
     }
+
     public boolean carsAreDisplayed() {
         return isElementPresent(By.cssSelector(".car-img-container.ng-star-inserted"));
     }
 
     public void selectDate() {
-            WebElement element = wd.findElement(By.xpath("(//input[@id='dates'])[1]"));
-            element.click();
-            click(By.xpath("//div[text()= 21 ]"));
-            click(By.xpath("//div[text()= 25 ]"));
+        WebElement element = wd.findElement(By.xpath("(//input[@id='dates'])[1]"));
+        element.click();
+        click(By.xpath("//div[text()= 21 ]"));
+        click(By.xpath("//div[text()= 25 ]"));
 
     }
 
@@ -116,20 +117,66 @@ public class CarHelper extends HelperBase {
         element.click();
 
         String[] str = date.split("-");
-        WebElement date1 = wd.findElement(By.xpath("//div[text()= "+str[0]+" ]"));
+        WebElement date1 = wd.findElement(By.xpath("//div[text()= " + str[0] + " ]"));
 
-        if(date1.isEnabled()){
-           date1.click();
+        if (date1.isEnabled()) {
+            date1.click();
         }
 
-        WebElement date2 = wd.findElement(By.xpath("//div[text()= "+str[1]+" ]"));
-        if(date2.isEnabled()){
+        WebElement date2 = wd.findElement(By.xpath("//div[text()= " + str[1] + " ]"));
+        if (date2.isEnabled()) {
             date2.click();
         }
 
     }
 
 
+    public void fillSearchForm(String city, String from, String to) {
+        typeCity(city);
+        selectPeriod(from, to);
 
+    }
 
+    private void selectPeriod(String from, String to) {
+        //11/25/2021 - 11/26/2021
+        String[] dataFrom = from.split("/");
+        String[] dataTo = to.split("/");
+        click((By.xpath("(//input[@id='dates'])[1]")));
+
+        int diffStart = 0;
+        if (LocalDate.now().getMonthValue() != Integer.parseInt(dataFrom[0])) {
+            diffStart = Integer.parseInt(dataFrom[0]) - LocalDate.now().getMonthValue();
+            //разница между текущей датой и датой которую нужно выбрать
+        }
+
+        int diffEnd = 0;
+        if (Integer.parseInt(dataFrom[0]) != Integer.parseInt(dataTo[0])) {
+            diffEnd = Integer.parseInt(dataTo[0]) - Integer.parseInt(dataFrom[0]);
+
+        }
+
+        for (int i = 0; i < diffStart; i++) {
+            click(By.xpath("//button[@aria-label='Next month']"));
+
+        }
+        String locator3 = String.format("//div[.=' %s ']", dataFrom[1]);
+        click(By.xpath(locator3));
+
+        for (int i = 0; i < diffEnd; i++) {
+            click(By.xpath("//button[@aria-label='Next month']"));
+        }
+
+//        String locator = "//div[.=' 25 ']";
+//        String locator2 ="//div[.=' "+dataFrom[1]+" '";
+//        String locator3 = String.format("//div[.=' %s ']",dataFrom[1]);
+        String locator4 = String.format("//div[.=' %s ']", dataTo[1]);
+        //click(By.xpath(locator3));
+        click(By.xpath(locator4));
+
+    }
+
+    public void returnToMainPage() {
+        click(By.xpath("//div[@class='header']//img[@alt='logo']"));
+
+    }
 }

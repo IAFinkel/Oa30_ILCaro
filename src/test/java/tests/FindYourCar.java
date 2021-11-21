@@ -1,6 +1,7 @@
 package tests;
 
 import org.testng.Assert;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.Test;
 
 public class FindYourCar extends TestBase {
@@ -30,6 +31,19 @@ public class FindYourCar extends TestBase {
         app.getHelperUser().submitRegistration();
         Assert.assertTrue(app.getCar().carsAreDisplayed());
 
+    }
+
+    @Test
+    public void searchTests(){
+        app.getCar().fillSearchForm("Haifa","12/25/2021","01/30/2021");
+        app.getHelperUser().submitRegistration();
+        Assert.assertTrue(app.getCar().carsAreDisplayed());
+
+    }
+
+    @AfterMethod
+    public void post(){
+        app.getCar().returnToMainPage();
     }
 
 }

@@ -1,11 +1,10 @@
 package tests;
 
-import manager.NGListener;
+import manager.MyDataProvider;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
 //@Listeners(NGListener.class)
@@ -19,16 +18,26 @@ public class LoginTests extends TestBase {
         }
     }
 
-    @Test
-    public void test() {
-
-        User user = new User().withEmail("goodwin49@mail.ru").withPassword("Car12345");
-        logger.info("Test Login Positive starts with email-->"+user.getEmail());
-        logger.info("Test Login Positive starts with password-->"+user.getPassword());
+    @Test(dataProvider = "loginDto", dataProviderClass = MyDataProvider.class)
+    public void test(String email, String password) {
 
         app.getHelperUser().openLoginRegistrationForm();
+        app.getHelperUser().fillLoginRegistrationForm(email, password);
+        app.getHelperUser().submitLogin();
+        // app.getHelperUser().submitLogin2();
+        app.getHelperUser().pause(2000);
+        //  Assert.assertTrue(app.getHelperUser().isLogged());
+        Assert.assertTrue(app.getHelperUser().isLoggedSucces());
 
-        //app.getHelperUser().fillLoginRegistrationForm("goodwin49@mail.ru", "Car12345");
+    }
+
+    @Test(dataProvider = "loginModelDto", dataProviderClass = MyDataProvider.class)
+    public void test2(User user) {
+
+        logger.info("Test Login Positive starts with email-->" + user.getEmail());
+        logger.info("Test Login Positive starts with password-->" + user.getPassword());
+
+        app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
         app.getHelperUser().submitLogin();
         // app.getHelperUser().submitLogin2();
@@ -39,10 +48,10 @@ public class LoginTests extends TestBase {
     }
 
     @Test
-    public void wrongEmail(){
+    public void wrongEmail() {
         User user = new User().withEmail("goodwin49mail.ru").withPassword("Car12345");
-        logger.info("Test Login Negative wrong email starts with email-->"+user.getEmail());
-        logger.info("Test Login Negative wrong email starts with password-->"+user.getPassword());
+        logger.info("Test Login Negative wrong email starts with email-->" + user.getEmail());
+        logger.info("Test Login Negative wrong email starts with password-->" + user.getPassword());
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
@@ -54,10 +63,10 @@ public class LoginTests extends TestBase {
     }
 
     @Test
-    public void wrongPass(){
+    public void wrongPass() {
         User user = new User().withEmail("goodwin49@mail.ru").withPassword("ar12345");
-        logger.info("Test Login Negative wrong password starts with email-->"+user.getEmail());
-        logger.info("Test Login Negative wrong password starts with password-->"+user.getPassword());
+        logger.info("Test Login Negative wrong password starts with email-->" + user.getEmail());
+        logger.info("Test Login Negative wrong password starts with password-->" + user.getPassword());
 
         app.getHelperUser().openLoginRegistrationForm();
         app.getHelperUser().fillLoginRegistrationForm(user);
