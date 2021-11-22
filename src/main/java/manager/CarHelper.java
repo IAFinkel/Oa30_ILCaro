@@ -138,20 +138,26 @@ public class CarHelper extends HelperBase {
     }
 
     private void selectPeriod(String from, String to) {
-        //11/25/2021 - 11/26/2021
         String[] dataFrom = from.split("/");
         String[] dataTo = to.split("/");
         click((By.xpath("(//input[@id='dates'])[1]")));
 
+
         int diffStart = 0;
         if (LocalDate.now().getMonthValue() != Integer.parseInt(dataFrom[0])) {
             diffStart = Integer.parseInt(dataFrom[0]) - LocalDate.now().getMonthValue();
+            if (diffStart < 0) {
+                diffStart = diffStart + 12;
+            }
             //разница между текущей датой и датой которую нужно выбрать
         }
 
         int diffEnd = 0;
         if (Integer.parseInt(dataFrom[0]) != Integer.parseInt(dataTo[0])) {
             diffEnd = Integer.parseInt(dataTo[0]) - Integer.parseInt(dataFrom[0]);
+            if (diffEnd < 0) {
+                diffEnd = diffEnd + 12;
+            }
 
         }
 

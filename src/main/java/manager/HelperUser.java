@@ -1,13 +1,12 @@
 package manager;
 
 import models.User;
-import org.openqa.selenium.*;
-import org.openqa.selenium.interactions.Action;
-import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-
-import javax.swing.*;
 
 public class HelperUser extends HelperBase {
     public HelperUser(WebDriver wd) {
@@ -24,6 +23,7 @@ public class HelperUser extends HelperBase {
         type(By.xpath("//input[@autocomplete='username']"), email);
         type(By.xpath("//input[@autocomplete='current-password']"), password);
     }
+
     public void fillLoginRegistrationForm(User user) {
         type(By.xpath("//input[@autocomplete='username']"), user.getEmail());
         type(By.xpath("//input[@autocomplete='current-password']"), user.getPassword());
@@ -31,7 +31,7 @@ public class HelperUser extends HelperBase {
 
     public void submitLogin() {
 
-       // click(By.xpath("//button[@type='submit']"));
+        // click(By.xpath("//button[@type='submit']"));
         WebElement submit = wd.findElement(By.xpath("//button[@type='submit']"));
         new WebDriverWait(wd, 10).until(ExpectedConditions.elementToBeClickable(submit));
         submit.submit();
@@ -53,14 +53,14 @@ public class HelperUser extends HelperBase {
 
 
     public boolean isLoggedSucces() {
-        WebDriverWait wait = new WebDriverWait(wd,10);
+        WebDriverWait wait = new WebDriverWait(wd, 10);
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
         //явное ожидание - 10 секунд ждать прорисовку конкретного элемента
         return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains("success");
     }
 
     public boolean isLoggedSucces2() {
-        WebDriverWait wait = new WebDriverWait(wd,10);
+        WebDriverWait wait = new WebDriverWait(wd, 10);
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.cssSelector(".dialog-container"))));
         //явное ожидание - 10 секунд ждать прорисовку конкретного элемента
         return wd.findElement(By.cssSelector(".dialog-container h2")).getText().contains("success");
@@ -68,30 +68,34 @@ public class HelperUser extends HelperBase {
 
 
     public void clickOkButton() {
-        if(isElementPresent(By.xpath("//button[text()='Ok']"))){
+        if (isElementPresent(By.xpath("//button[text()='Ok']"))) {
             click(By.xpath("//button[text()='Ok']"));
         }
     }
 
-    public boolean yallaIsEnabled(){
+    public boolean yallaIsEnabled() {
         return wd.findElement(By.xpath("//button[@type='submit']")).isEnabled();
     }
-    public boolean errorMessageWrongEmail(){
+
+    public boolean errorMessageWrongEmail() {
         String error = wd.findElement(By.xpath("//div[contains(text(),\"It'snot\")]")).getText();
         return error.contains("It'snot look like email");
     }
-    public boolean authorizErrorWindowDisplayed(){
+
+    public boolean authorizErrorWindowDisplayed() {
         return wd.findElement(By.xpath("//mat-dialog-container")).isDisplayed();
     }
-    public boolean errorMessageWrongEmailorPassword(){
+
+    public boolean errorMessageWrongEmailorPassword() {
         String error = wd.findElement(By.xpath("//mat-dialog-container//h2")).getText();
         return error.contains("Wrong email or password");
     }
+
     public boolean isLoginPresent() {
         return isElementPresent(By.xpath("//a[text()=' Log in ']"));
     }
 
-    public void login(User user){
+    public void login(User user) {
         openLoginRegistrationForm();
         fillLoginRegistrationForm(user);
         submitLogin();
@@ -119,7 +123,7 @@ public class HelperUser extends HelperBase {
     }
 
     public boolean RegistrationSucces() {
-        WebDriverWait wait = new WebDriverWait(wd,10);
+        WebDriverWait wait = new WebDriverWait(wd, 10);
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//h2[text()='You are logged in success']"))));
         return wd.findElement(By.xpath("//h2[text()='You are logged in success']")).getText().contains("success");
     }

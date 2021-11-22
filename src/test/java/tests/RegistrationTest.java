@@ -1,5 +1,6 @@
 package tests;
 
+import manager.MyDataProvider;
 import models.User;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -15,17 +16,16 @@ public class RegistrationTest extends TestBase {
         }
     }
 
-    @Test(groups = {"web"})
-    public void regTestPositive(){
-        int i = (int)((System.currentTimeMillis()/1000)%3600);
-        User newUser = new User().withEmail("asdh"+i+"@gmail.com").withPassword("Qwery1234").withName("Ilia")
-                .withLastname("Petrov");
-        logger.info("Test Registration Positive starts with email--->"+newUser.getEmail());
-        logger.info("Test Registration Positive starts with password--->"+newUser.getPassword());
+    @Test(dataProvider = "registrationDto", dataProviderClass = MyDataProvider.class)
+    public void regTestPositive(User user) {
+        logger.info("Test Registration Positive starts with email--->" + user.getEmail());
+        logger.info("Test Registration Positive starts with password--->" + user.getPassword());
+        logger.info("Test Registration Positive starts with name--->" + user.getName());
+        logger.info("Test Registration Positive starts with lastname--->" + user.getLastname());
 
         app.getHelperUser().openRegistrationForm();
         app.getHelperUser().
-                fillRegistrationForm(newUser);
+                fillRegistrationForm(user);
         app.getHelperUser().checkPolicy();
         app.getHelperUser().submitRegistration();
 

@@ -1,0 +1,46 @@
+19:47:24 INFO  manager.ApplManager - Tests starts on Chrome Driver
+19:47:30 INFO  tests.TestBase - Start test--->searchTests
+19:47:30 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+19:47:30 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+19:47:30 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+19:47:31 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+19:47:46 ERROR manager.MyListener - Something went wrong
+19:47:46 ERROR manager.MyListener - element not interactable
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5cc91054dc6e8bb001bbd01e6e60bf0
+19:47:46 ERROR manager.MyListener - org.openqa.selenium.ElementNotInteractableException: element not interactable
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49232}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b5cc91054dc6e8bb001bbd01e6e60bf0
+19:47:46 INFO  manager.MyListener - This link to the screenshot with error-->src/test/resources/screenshots/screenshot-2866.png
+19:47:46 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+19:47:46 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+19:47:47 INFO  tests.TestBase - The end of test--->searchTests
+19:47:54 INFO  manager.ApplManager - Tests starts on Chrome Driver
+19:48:00 INFO  tests.TestBase - Start test--->searchTests
+19:48:00 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+19:48:00 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+19:48:00 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+19:48:00 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+19:48:01 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+19:48:01 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+19:48:01 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+19:48:01 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+19:48:01 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[.=' 15 ']
+19:48:01 INFO  manager.MyListener - The element with locator-->By.xpath: //div[.=' 15 ']was found
+19:48:01 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[.=' 15 ']
+19:48:01 INFO  manager.MyListener - The element with locator-->By.xpath: //div[.=' 15 ']was found
+19:48:01 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+19:48:01 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+19:48:01 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .car-img-container.ng-star-inserted
+19:48:16 INFO  manager.MyListener - The element with locator-->By.cssSelector: .car-img-container.ng-star-insertedwas found
+19:48:16 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+19:48:16 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+19:48:17 INFO  tests.TestBase - The end of test--->searchTests

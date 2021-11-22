@@ -34,15 +34,15 @@ public class FindYourCar extends TestBase {
     }
 
     @Test
-    public void searchTests(){
-        app.getCar().fillSearchForm("Haifa","12/25/2021","01/30/2021");
+    public void searchTests() {
+        app.getCar().fillSearchForm("Haifa", "12/15/2021", "03/10/2022");
         app.getHelperUser().submitRegistration();
         Assert.assertTrue(app.getCar().carsAreDisplayed());
 
     }
 
     @AfterMethod
-    public void post(){
+    public void post() {
         app.getCar().returnToMainPage();
     }
 
