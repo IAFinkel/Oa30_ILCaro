@@ -1,0 +1,82 @@
+17:42:09 INFO  manager.ApplManager - Tests starts on Chrome Driver
+17:42:14 INFO  tests.TestBase - Start test--->regTestPositive
+17:42:14 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+17:42:29 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+17:42:29 INFO  tests.TestBase - Test Registration Positive starts with email--->wertywe@gmail.com
+17:42:29 INFO  tests.TestBase - Test Registration Positive starts with password--->Ww13456@
+17:42:29 INFO  tests.TestBase - Test Registration Positive starts with name--->Sonya
+17:42:29 INFO  tests.TestBase - Test Registration Positive starts with lastname--->Shu
+17:42:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href='/registration?url=%2Fsearch']
+17:42:29 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href='/registration?url=%2Fsearch']was found
+17:42:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='name']
+17:42:29 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='name']was found
+17:42:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='family-name']
+17:42:29 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='family-name']was found
+17:42:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='email']
+17:42:29 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='email']was found
+17:42:30 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='new-password']
+17:42:30 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='new-password']was found
+17:42:30 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+17:42:30 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+17:42:30 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //h2[text()='You are logged in success']
+17:42:43 ERROR manager.MyListener - Something went wrong
+17:42:43 ERROR manager.MyListener - Cannot locate an element using xpath=//h2[text()='You are logged in success']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: EventFiringWebDriver
+17:42:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchElementException: Cannot locate an element using xpath=//h2[text()='You are logged in success']
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: driver.version: EventFiringWebDriver
+17:42:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+17:42:43 ERROR manager.MyListener - Something went wrong
+17:42:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 334c8e24f576797977bc17bbc6c147f2
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+17:42:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64762}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 334c8e24f576797977bc17bbc6c147f2
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+17:42:43 INFO  tests.TestBase - The end of test--->regTestPositive
+17:43:00 INFO  manager.ApplManager - Tests starts on Chrome Driver
+17:43:04 INFO  tests.TestBase - Start test--->regTestPositive
+17:43:04 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+17:43:19 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+17:43:19 INFO  tests.TestBase - Test Registration Positive starts with email--->wert@gmail.com
+17:43:19 INFO  tests.TestBase - Test Registration Positive starts with password--->Ww13456@
+17:43:19 INFO  tests.TestBase - Test Registration Positive starts with name--->Sonya
+17:43:19 INFO  tests.TestBase - Test Registration Positive starts with lastname--->Shu
+17:43:19 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href='/registration?url=%2Fsearch']
+17:43:19 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href='/registration?url=%2Fsearch']was found
+17:43:19 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='name']
+17:43:19 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='name']was found
+17:43:19 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='family-name']
+17:43:19 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='family-name']was found
+17:43:20 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='email']
+17:43:20 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='email']was found
+17:43:20 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='new-password']
+17:43:20 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='new-password']was found
+17:43:20 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+17:43:20 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+17:43:20 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //h2[text()='You are logged in success']
+17:43:21 INFO  manager.MyListener - The element with locator-->By.xpath: //h2[text()='You are logged in success']was found
+17:43:21 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //h2[text()='You are logged in success']
+17:43:21 INFO  manager.MyListener - The element with locator-->By.xpath: //h2[text()='You are logged in success']was found
+17:43:21 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+17:43:21 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+17:43:21 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+17:43:21 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+17:43:21 INFO  tests.TestBase - The end of test--->regTestPositive

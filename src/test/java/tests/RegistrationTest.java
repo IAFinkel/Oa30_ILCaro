@@ -16,7 +16,24 @@ public class RegistrationTest extends TestBase {
         }
     }
 
-    @Test(dataProvider = "registrationDto", dataProviderClass = MyDataProvider.class)
+//    @Test(dataProvider = "registrationDto", dataProviderClass = MyDataProvider.class)
+//    public void regTestPositive(User user) {
+//        logger.info("Test Registration Positive starts with email--->" + user.getEmail());
+//        logger.info("Test Registration Positive starts with password--->" + user.getPassword());
+//        logger.info("Test Registration Positive starts with name--->" + user.getName());
+//        logger.info("Test Registration Positive starts with lastname--->" + user.getLastname());
+//
+//        app.getHelperUser().openRegistrationForm();
+//        app.getHelperUser().
+//                fillRegistrationForm(user);
+//        app.getHelperUser().checkPolicy();
+//        app.getHelperUser().submitRegistration();
+//
+//        Assert.assertTrue(app.getHelperUser().RegistrationSucces());
+//
+//    }
+
+    @Test(dataProvider = "registrationCSV", dataProviderClass = MyDataProvider.class)
     public void regTestPositive(User user) {
         logger.info("Test Registration Positive starts with email--->" + user.getEmail());
         logger.info("Test Registration Positive starts with password--->" + user.getPassword());

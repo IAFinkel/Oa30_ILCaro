@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.time.LocalDate;
+import java.time.format.DateTimeFormatter;
 
 public class CarHelper extends HelperBase {
     public CarHelper(WebDriver wd) {
@@ -106,8 +107,8 @@ public class CarHelper extends HelperBase {
     public void selectDate() {
         WebElement element = wd.findElement(By.xpath("(//input[@id='dates'])[1]"));
         element.click();
-        click(By.xpath("//div[text()= 21 ]"));
-        click(By.xpath("//div[text()= 25 ]"));
+        click(By.xpath("//div[text()= 28 ]"));
+        click(By.xpath("//div[text()= 30 ]"));
 
     }
 
@@ -179,6 +180,43 @@ public class CarHelper extends HelperBase {
         //click(By.xpath(locator3));
         click(By.xpath(locator4));
 
+    }
+
+    public void selectPeriodVersion2(String fromD, String toD){
+        LocalDate from = LocalDate.parse(fromD, DateTimeFormatter.ofPattern("MM/dd/yyyy"));
+        LocalDate to = LocalDate.parse(toD,DateTimeFormatter.ofPattern("MM/dd/yyyy"));//вычитывет из стринг дату в соотв формате
+        LocalDate now = LocalDate.now();
+        click((By.xpath("(//input[@id='dates'])[1]")));
+
+        selectData(from,now);
+
+//        int mounthDiff = from.getYear()-now.getYear()==0? from.getMonthValue()-now.getMonthValue()
+//                : 12-now.getMonthValue()+from.getMonthValue();
+//
+//        for (int i = 0; i < mounthDiff; i++) {
+//           click(By.xpath("//button[@aria-label='Next month']"));
+//
+//        }
+        click(By.xpath(String.format("//div[.=' %s ']",from.getDayOfMonth())));
+
+//        mounthDiff=to.getYear()-from.getYear()==0?to.getMonthValue()-from.getMonthValue() :
+//          12-from.getMonthValue()+to.getMonthValue();
+//        for (int i = 0; i < mounthDiff; i++) {
+//            click(By.xpath("//button[@aria-label='Next month']"));
+//
+//        }
+        selectData(to,from);
+        click(By.xpath(String.format("//div[.=' %s ']",to.getDayOfMonth())));
+    }
+
+    public void selectData(LocalDate first,LocalDate second){
+        int mounthDiff = first.getYear()-second.getYear()==0? first.getMonthValue()-second.getMonthValue()
+                : 12-second.getMonthValue()+first.getMonthValue();
+
+        for (int i = 0; i < mounthDiff; i++) {
+            click(By.xpath("//button[@aria-label='Next month']"));
+
+        }
     }
 
     public void returnToMainPage() {

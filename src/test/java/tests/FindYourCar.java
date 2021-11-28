@@ -41,6 +41,13 @@ public class FindYourCar extends TestBase {
 
     }
 
+    @Test
+    public void searchTestYear(){
+        app.getCar().typeCity("Haifa");
+        app.getCar().selectPeriodVersion2("12/12/2021","06/06/2022");
+        app.getCar().pause(5000);
+    }
+
     @AfterMethod
     public void post() {
         app.getCar().returnToMainPage();

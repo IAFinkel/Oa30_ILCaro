@@ -1,0 +1,365 @@
+21:19:02 INFO  manager.ApplManager - Tests starts on Chrome Driver
+21:19:08 INFO  tests.TestBase - Start test--->test
+21:19:08 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:23 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+21:19:23 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+21:19:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+21:19:23 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+21:19:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+21:19:23 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+21:19:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+21:19:23 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+21:19:25 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container
+21:19:25 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-containerwas found
+21:19:25 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container h2
+21:19:25 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-container h2was found
+21:19:25 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:25 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+21:19:25 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:25 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+21:19:25 INFO  tests.TestBase - The end of test--->test
+21:19:25 INFO  tests.TestBase - Start test--->test
+21:19:25 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:25 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:25 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:25 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:25 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+21:19:25 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+21:19:25 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+21:19:25 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+21:19:26 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+21:19:26 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+21:19:26 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+21:19:26 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+21:19:28 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container
+21:19:28 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-containerwas found
+21:19:28 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container h2
+21:19:28 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-container h2was found
+21:19:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:28 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+21:19:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:28 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+21:19:28 INFO  tests.TestBase - The end of test--->test
+21:19:28 INFO  tests.TestBase - Start test--->test
+21:19:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:28 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:28 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+21:19:28 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+21:19:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+21:19:28 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+21:19:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+21:19:28 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+21:19:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+21:19:28 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+21:19:30 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container
+21:19:31 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-containerwas found
+21:19:31 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container h2
+21:19:31 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-container h2was found
+21:19:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:31 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+21:19:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:31 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+21:19:31 INFO  tests.TestBase - The end of test--->test
+21:19:31 INFO  tests.TestBase - Start test--->test2
+21:19:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:31 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:31 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:31 INFO  tests.TestBase - Test Login Positive starts with email-->goodwin49@mail.ru
+21:19:31 INFO  tests.TestBase - Test Login Positive starts with password-->Car12345
+21:19:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+21:19:31 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+21:19:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+21:19:31 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+21:19:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+21:19:31 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+21:19:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+21:19:31 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+21:19:33 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container
+21:19:33 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-containerwas found
+21:19:33 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container h2
+21:19:33 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-container h2was found
+21:19:33 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:33 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+21:19:33 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:33 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+21:19:33 INFO  tests.TestBase - The end of test--->test2
+21:19:33 INFO  tests.TestBase - Start test--->test2
+21:19:33 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:33 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:33 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:33 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:33 INFO  tests.TestBase - Test Login Positive starts with email-->goodwin49@mail.ru
+21:19:33 INFO  tests.TestBase - Test Login Positive starts with password-->Car12345
+21:19:33 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+21:19:33 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+21:19:33 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+21:19:34 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+21:19:34 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+21:19:34 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+21:19:34 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+21:19:34 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+21:19:36 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container
+21:19:36 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-containerwas found
+21:19:36 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container h2
+21:19:36 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-container h2was found
+21:19:36 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:36 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+21:19:36 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:36 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+21:19:36 INFO  tests.TestBase - The end of test--->test2
+21:19:36 INFO  tests.TestBase - Start test--->wrongEmail
+21:19:36 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:36 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:36 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:36 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:36 INFO  tests.TestBase - Test Login Negative wrong email starts with email-->goodwin49mail.ru
+21:19:36 INFO  tests.TestBase - Test Login Negative wrong email starts with password-->Car12345
+21:19:36 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+21:19:36 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+21:19:36 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+21:19:36 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+21:19:36 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+21:19:36 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+21:19:36 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+21:19:37 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+21:19:37 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[contains(text(),"It'snot")]
+21:19:37 INFO  manager.MyListener - The element with locator-->By.xpath: //div[contains(text(),"It'snot")]was found
+21:19:37 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:43 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:19:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:43 ERROR manager.MyListener - Something went wrong
+21:19:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+21:19:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+21:19:43 INFO  tests.TestBase - The end of test--->wrongEmail
+21:19:43 INFO  tests.TestBase - Start test--->wrongPass
+21:19:43 INFO  tests.TestBase - The end of test--->wrongPass
+21:19:43 INFO  tests.TestBase - Start test--->regTestPositive
+21:19:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:43 ERROR manager.MyListener - Something went wrong
+21:19:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//a[@href="/logout?url=%2Fsearch"]}
+21:19:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//a[@href="/logout?url=%2Fsearch"]}
+21:19:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:43 ERROR manager.MyListener - Something went wrong
+21:19:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+21:19:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+21:19:43 INFO  tests.TestBase - The end of test--->regTestPositive
+21:19:43 INFO  tests.TestBase - Start test--->regTestPositive
+21:19:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:43 ERROR manager.MyListener - Something went wrong
+21:19:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//a[@href="/logout?url=%2Fsearch"]}
+21:19:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//a[@href="/logout?url=%2Fsearch"]}
+21:19:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:43 ERROR manager.MyListener - Something went wrong
+21:19:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+21:19:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+21:19:43 INFO  tests.TestBase - The end of test--->regTestPositive
+21:19:43 INFO  tests.TestBase - Start test--->regTestPositive
+21:19:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:19:43 ERROR manager.MyListener - Something went wrong
+21:19:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//a[@href="/logout?url=%2Fsearch"]}
+21:19:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//a[@href="/logout?url=%2Fsearch"]}
+21:19:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+21:19:43 ERROR manager.MyListener - Something went wrong
+21:19:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+21:19:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//button[text()='Ok']}
+21:19:43 INFO  tests.TestBase - The end of test--->regTestPositive
+21:19:43 INFO  tests.TestBase - Start test--->addNewCarTestPositive
+21:19:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[text()=' Log in ']
+21:19:43 ERROR manager.MyListener - Something went wrong
+21:19:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//a[text()=' Log in ']}
+21:19:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//a[text()=' Log in ']}
+21:19:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div//button[text()='Add another car']
+21:19:43 ERROR manager.MyListener - Something went wrong
+21:19:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//div//button[text()='Add another car']}
+21:19:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//div//button[text()='Add another car']}
+21:19:43 INFO  tests.TestBase - The end of test--->addNewCarTestPositive
+21:19:43 INFO  tests.TestBase - Start test--->addNewCarTestPositive2
+21:19:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[text()=' Log in ']
+21:19:43 ERROR manager.MyListener - Something went wrong
+21:19:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//a[text()=' Log in ']}
+21:19:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//a[text()=' Log in ']}
+21:19:43 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div//button[text()='Add another car']
+21:19:43 ERROR manager.MyListener - Something went wrong
+21:19:43 ERROR manager.MyListener - no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//div//button[text()='Add another car']}
+21:19:43 ERROR manager.MyListener - org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=96.0.4664.45)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:56099}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 7e76d5bb8bcd1302454118db76c63926
+*** Element info: {Using=xpath, value=//div//button[text()='Add another car']}
+21:19:43 INFO  tests.TestBase - The end of test--->addNewCarTestPositive2

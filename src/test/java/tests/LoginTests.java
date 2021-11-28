@@ -34,7 +34,8 @@ public class LoginTests extends TestBase {
     @Test(dataProvider = "loginModelDto", dataProviderClass = MyDataProvider.class)
     public void test2(User user) {
 
-        logger.info("Test Login Positive starts with email-->" + user.getEmail());
+        logger.info("Test Login Posit" +
+                "ive starts with email-->" + user.getEmail());
         logger.info("Test Login Positive starts with password-->" + user.getPassword());
 
         app.getHelperUser().openLoginRegistrationForm();

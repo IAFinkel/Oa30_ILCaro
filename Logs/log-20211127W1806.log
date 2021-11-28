@@ -1,0 +1,460 @@
+18:06:18 INFO  manager.ApplManager - Tests starts on Chrome Driver
+18:06:24 INFO  tests.TestBase - Start test--->addNewCarTestPositive
+18:06:24 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[text()=' Log in ']
+18:06:24 INFO  manager.MyListener - The element with locator-->By.xpath: //a[text()=' Log in ']was found
+18:06:24 INFO  tests.TestBase - Test starts with emai-->goodwin49@mail.ru
+18:06:24 INFO  tests.TestBase - Test starts with password-->Car12345
+18:06:24 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+18:06:24 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+18:06:24 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+18:06:24 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+18:06:24 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+18:06:24 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+18:06:24 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:06:24 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:06:24 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:06:25 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:06:25 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:06:26 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:06:27 INFO  manager.MyListener - Start searching element by locator-->By.id: 1
+18:06:27 INFO  manager.MyListener - The element with locator-->By.id: 1was found
+18:06:27 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: h2
+18:06:27 INFO  manager.MyListener - The element with locator-->By.cssSelector: h2was found
+18:06:27 INFO  manager.MyListener - Start searching element by locator-->By.id: pickUpPlace
+18:06:27 INFO  manager.MyListener - The element with locator-->By.id: pickUpPlacewas found
+18:06:27 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+18:06:27 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+18:06:28 INFO  manager.MyListener - Start searching element by locator-->By.id: make
+18:06:28 INFO  manager.MyListener - The element with locator-->By.id: makewas found
+18:06:28 INFO  manager.MyListener - Start searching element by locator-->By.id: model
+18:06:28 INFO  manager.MyListener - The element with locator-->By.id: modelwas found
+18:06:28 INFO  manager.MyListener - Start searching element by locator-->By.id: year
+18:06:28 INFO  manager.MyListener - The element with locator-->By.id: yearwas found
+18:06:28 INFO  manager.MyListener - Start searching element by locator-->By.id: engine
+18:06:28 INFO  manager.MyListener - The element with locator-->By.id: enginewas found
+18:06:29 INFO  manager.MyListener - Start searching element by locator-->By.id: fuel
+18:06:29 INFO  manager.MyListener - The element with locator-->By.id: fuelwas found
+18:06:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: .//option[@value = "Petrol"]
+18:06:29 INFO  manager.MyListener - The element with locator-->By.xpath: .//option[@value = "Petrol"]was found
+18:06:29 INFO  manager.MyListener - Start searching element by locator-->By.id: gear
+18:06:29 INFO  manager.MyListener - The element with locator-->By.id: gearwas found
+18:06:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: .//option[@value = "MT"]
+18:06:29 INFO  manager.MyListener - The element with locator-->By.xpath: .//option[@value = "MT"]was found
+18:06:29 INFO  manager.MyListener - Start searching element by locator-->By.id: wheelsDrive
+18:06:29 INFO  manager.MyListener - The element with locator-->By.id: wheelsDrivewas found
+18:06:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: .//option[@value = "AWD"]
+18:06:29 INFO  manager.MyListener - The element with locator-->By.xpath: .//option[@value = "AWD"]was found
+18:06:29 INFO  manager.MyListener - Start searching element by locator-->By.id: doors
+18:06:29 INFO  manager.MyListener - The element with locator-->By.id: doorswas found
+18:06:29 INFO  manager.MyListener - Start searching element by locator-->By.id: seats
+18:06:29 INFO  manager.MyListener - The element with locator-->By.id: seatswas found
+18:06:29 INFO  manager.MyListener - Start searching element by locator-->By.id: class
+18:06:29 INFO  manager.MyListener - The element with locator-->By.id: classwas found
+18:06:29 INFO  manager.MyListener - Start searching element by locator-->By.id: fuelConsumption
+18:06:29 INFO  manager.MyListener - The element with locator-->By.id: fuelConsumptionwas found
+18:06:30 INFO  manager.MyListener - Start searching element by locator-->By.id: serialNumber
+18:06:30 INFO  manager.MyListener - The element with locator-->By.id: serialNumberwas found
+18:06:30 INFO  manager.MyListener - Start searching element by locator-->By.id: price
+18:06:30 INFO  manager.MyListener - The element with locator-->By.id: pricewas found
+18:06:30 INFO  manager.MyListener - Start searching element by locator-->By.id: distance
+18:06:30 INFO  manager.MyListener - The element with locator-->By.id: distancewas found
+18:06:30 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .feature-input
+18:06:30 INFO  manager.MyListener - The element with locator-->By.cssSelector: .feature-inputwas found
+18:06:30 INFO  manager.MyListener - Start searching element by locator-->By.id: about
+18:06:30 INFO  manager.MyListener - The element with locator-->By.id: aboutwas found
+18:06:30 INFO  manager.MyListener - Start searching element by locator-->By.id: photos
+18:06:30 INFO  manager.MyListener - The element with locator-->By.id: photoswas found
+18:06:30 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:06:30 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:06:33 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div//h2[contains(.,'successful')]
+18:06:34 INFO  manager.MyListener - The element with locator-->By.xpath: //div//h2[contains(.,'successful')]was found
+18:06:34 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div//button[text()='Add another car']
+18:06:34 INFO  manager.MyListener - The element with locator-->By.xpath: //div//button[text()='Add another car']was found
+18:06:34 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[text()=' Logout ']
+18:06:34 INFO  manager.MyListener - The element with locator-->By.xpath: //a[text()=' Logout ']was found
+18:06:34 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+18:06:34 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+18:06:35 INFO  tests.TestBase - The end of test--->addNewCarTestPositive
+18:06:35 INFO  tests.TestBase - Start test--->addNewCarTestPositive2
+18:06:35 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[text()=' Log in ']
+18:06:35 INFO  manager.MyListener - The element with locator-->By.xpath: //a[text()=' Log in ']was found
+18:06:35 INFO  tests.TestBase - Test starts with emai-->goodwin49@mail.ru
+18:06:35 INFO  tests.TestBase - Test starts with password-->Car12345
+18:06:35 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+18:06:35 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+18:06:35 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+18:06:35 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+18:06:35 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+18:06:35 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+18:06:36 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:06:36 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:06:36 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:06:37 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:06:37 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:06:37 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:06:38 INFO  manager.MyListener - Start searching element by locator-->By.id: 1
+18:06:38 INFO  manager.MyListener - The element with locator-->By.id: 1was found
+18:06:38 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: h2
+18:06:38 INFO  manager.MyListener - The element with locator-->By.cssSelector: h2was found
+18:06:38 INFO  manager.MyListener - Start searching element by locator-->By.id: pickUpPlace
+18:06:38 INFO  manager.MyListener - The element with locator-->By.id: pickUpPlacewas found
+18:06:38 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+18:06:39 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+18:06:39 INFO  manager.MyListener - Start searching element by locator-->By.id: make
+18:06:39 INFO  manager.MyListener - The element with locator-->By.id: makewas found
+18:06:40 INFO  manager.MyListener - Start searching element by locator-->By.id: model
+18:06:40 INFO  manager.MyListener - The element with locator-->By.id: modelwas found
+18:06:40 INFO  manager.MyListener - Start searching element by locator-->By.id: year
+18:06:40 INFO  manager.MyListener - The element with locator-->By.id: yearwas found
+18:06:40 INFO  manager.MyListener - Start searching element by locator-->By.id: engine
+18:06:40 INFO  manager.MyListener - The element with locator-->By.id: enginewas found
+18:06:40 INFO  manager.MyListener - Start searching element by locator-->By.id: fuel
+18:06:40 INFO  manager.MyListener - The element with locator-->By.id: fuelwas found
+18:06:40 INFO  manager.MyListener - Start searching element by locator-->By.xpath: .//option[@value = "Petrol"]
+18:06:40 INFO  manager.MyListener - The element with locator-->By.xpath: .//option[@value = "Petrol"]was found
+18:06:40 INFO  manager.MyListener - Start searching element by locator-->By.id: gear
+18:06:40 INFO  manager.MyListener - The element with locator-->By.id: gearwas found
+18:06:40 INFO  manager.MyListener - Start searching element by locator-->By.xpath: .//option[@value = "AT"]
+18:06:40 INFO  manager.MyListener - The element with locator-->By.xpath: .//option[@value = "AT"]was found
+18:06:40 INFO  manager.MyListener - Start searching element by locator-->By.id: wheelsDrive
+18:06:40 INFO  manager.MyListener - The element with locator-->By.id: wheelsDrivewas found
+18:06:40 INFO  manager.MyListener - Start searching element by locator-->By.xpath: .//option[@value = "AWD"]
+18:06:40 INFO  manager.MyListener - The element with locator-->By.xpath: .//option[@value = "AWD"]was found
+18:06:40 INFO  manager.MyListener - Start searching element by locator-->By.id: doors
+18:06:40 INFO  manager.MyListener - The element with locator-->By.id: doorswas found
+18:06:41 INFO  manager.MyListener - Start searching element by locator-->By.id: seats
+18:06:41 INFO  manager.MyListener - The element with locator-->By.id: seatswas found
+18:06:41 INFO  manager.MyListener - Start searching element by locator-->By.id: class
+18:06:41 INFO  manager.MyListener - The element with locator-->By.id: classwas found
+18:06:41 INFO  manager.MyListener - Start searching element by locator-->By.id: fuelConsumption
+18:06:41 INFO  manager.MyListener - The element with locator-->By.id: fuelConsumptionwas found
+18:06:41 INFO  manager.MyListener - Start searching element by locator-->By.id: serialNumber
+18:06:41 INFO  manager.MyListener - The element with locator-->By.id: serialNumberwas found
+18:06:41 INFO  manager.MyListener - Start searching element by locator-->By.id: price
+18:06:41 INFO  manager.MyListener - The element with locator-->By.id: pricewas found
+18:06:41 INFO  manager.MyListener - Start searching element by locator-->By.id: distance
+18:06:41 INFO  manager.MyListener - The element with locator-->By.id: distancewas found
+18:06:42 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .feature-input
+18:06:42 INFO  manager.MyListener - The element with locator-->By.cssSelector: .feature-inputwas found
+18:06:42 INFO  manager.MyListener - Start searching element by locator-->By.id: about
+18:06:42 INFO  manager.MyListener - The element with locator-->By.id: aboutwas found
+18:06:42 INFO  manager.MyListener - Start searching element by locator-->By.id: photos
+18:06:42 INFO  manager.MyListener - The element with locator-->By.id: photoswas found
+18:06:42 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:06:42 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:06:45 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div//h2[contains(.,'successful')]
+18:06:46 INFO  manager.MyListener - The element with locator-->By.xpath: //div//h2[contains(.,'successful')]was found
+18:06:46 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div//button[text()='Add another car']
+18:06:46 INFO  manager.MyListener - The element with locator-->By.xpath: //div//button[text()='Add another car']was found
+18:06:46 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[text()=' Logout ']
+18:06:46 INFO  manager.MyListener - The element with locator-->By.xpath: //a[text()=' Logout ']was found
+18:06:47 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+18:06:47 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+18:06:47 INFO  tests.TestBase - The end of test--->addNewCarTestPositive2
+18:06:47 INFO  tests.TestBase - Start test--->findYourCarPositive
+18:06:47 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+18:06:47 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+18:06:47 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+18:06:48 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+18:06:48 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+18:06:48 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+18:06:48 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:06:48 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:06:49 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .car-img-container.ng-star-inserted
+18:06:49 INFO  manager.MyListener - The element with locator-->By.cssSelector: .car-img-container.ng-star-insertedwas found
+18:06:49 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+18:06:50 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+18:06:50 INFO  tests.TestBase - The end of test--->findYourCarPositive
+18:06:50 INFO  tests.TestBase - Start test--->findYourCarPositive2
+18:06:50 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+18:06:50 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+18:06:50 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+18:06:50 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+18:06:51 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+18:06:51 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+18:06:51 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 28 ]
+18:06:51 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 28 ]was found
+18:06:51 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 30 ]
+18:06:51 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 30 ]was found
+18:06:51 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:06:51 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:06:52 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .car-img-container.ng-star-inserted
+18:06:53 INFO  manager.MyListener - The element with locator-->By.cssSelector: .car-img-container.ng-star-insertedwas found
+18:06:53 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+18:06:53 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+18:06:53 INFO  tests.TestBase - The end of test--->findYourCarPositive2
+18:06:53 INFO  tests.TestBase - Start test--->findYourCarPositive3
+18:06:53 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+18:06:53 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+18:06:53 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+18:06:54 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+18:06:54 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+18:06:54 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+18:06:54 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 28 ]
+18:06:54 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 28 ]was found
+18:06:55 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 30 ]
+18:06:55 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 30 ]was found
+18:06:55 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:06:55 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:06:55 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .car-img-container.ng-star-inserted
+18:06:56 INFO  manager.MyListener - The element with locator-->By.cssSelector: .car-img-container.ng-star-insertedwas found
+18:06:56 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+18:06:56 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+18:06:56 INFO  tests.TestBase - The end of test--->findYourCarPositive3
+18:06:56 INFO  tests.TestBase - Start test--->searchTestYear
+18:06:56 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+18:06:56 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+18:06:56 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+18:06:58 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+18:06:58 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+18:06:58 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+18:06:58 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+18:06:58 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+18:06:58 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[.=' 12 ']
+18:06:58 INFO  manager.MyListener - The element with locator-->By.xpath: //div[.=' 12 ']was found
+18:06:58 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+18:06:58 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+18:06:59 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+18:06:59 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+18:06:59 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+18:06:59 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+18:06:59 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+18:06:59 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+18:06:59 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+18:06:59 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+18:06:59 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+18:06:59 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+18:06:59 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[.=' 6 ']
+18:06:59 INFO  manager.MyListener - The element with locator-->By.xpath: //div[.=' 6 ']was found
+18:07:04 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+18:07:04 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+18:07:04 INFO  tests.TestBase - The end of test--->searchTestYear
+18:07:04 INFO  tests.TestBase - Start test--->searchTests
+18:07:04 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+18:07:04 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+18:07:04 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+18:07:05 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+18:07:06 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+18:07:06 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+18:07:06 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+18:07:06 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+18:07:06 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[.=' 15 ']
+18:07:06 INFO  manager.MyListener - The element with locator-->By.xpath: //div[.=' 15 ']was found
+18:07:06 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+18:07:06 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+18:07:06 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+18:07:06 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+18:07:06 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+18:07:06 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+18:07:06 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[.=' 10 ']
+18:07:06 INFO  manager.MyListener - The element with locator-->By.xpath: //div[.=' 10 ']was found
+18:07:06 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:07:06 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:07:06 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .car-img-container.ng-star-inserted
+18:07:07 INFO  manager.MyListener - The element with locator-->By.cssSelector: .car-img-container.ng-star-insertedwas found
+18:07:07 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+18:07:08 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+18:07:08 INFO  tests.TestBase - The end of test--->searchTests
+18:07:08 INFO  tests.TestBase - Start test--->test
+18:07:08 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:23 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+18:07:23 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+18:07:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+18:07:23 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+18:07:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+18:07:23 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+18:07:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:07:23 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:07:25 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container
+18:07:25 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-containerwas found
+18:07:25 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container h2
+18:07:26 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-container h2was found
+18:07:26 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:07:26 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:07:26 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:07:26 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:07:26 INFO  tests.TestBase - The end of test--->test
+18:07:26 INFO  tests.TestBase - Start test--->test
+18:07:26 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:26 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:26 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:26 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:26 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+18:07:26 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+18:07:26 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+18:07:26 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+18:07:26 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+18:07:26 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+18:07:26 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:07:26 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:07:28 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container
+18:07:28 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-containerwas found
+18:07:28 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container h2
+18:07:28 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-container h2was found
+18:07:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:07:29 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:07:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:07:29 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:07:29 INFO  tests.TestBase - The end of test--->test
+18:07:29 INFO  tests.TestBase - Start test--->test
+18:07:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:29 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:29 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+18:07:29 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+18:07:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+18:07:29 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+18:07:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+18:07:29 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+18:07:29 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:07:29 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:07:31 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container
+18:07:31 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-containerwas found
+18:07:31 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container h2
+18:07:31 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-container h2was found
+18:07:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:07:31 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:07:31 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:07:31 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:07:32 INFO  tests.TestBase - The end of test--->test
+18:07:32 INFO  tests.TestBase - Start test--->test2
+18:07:32 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:32 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:32 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:32 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:32 INFO  tests.TestBase - Test Login Positive starts with email-->goodwin49@mail.ru
+18:07:32 INFO  tests.TestBase - Test Login Positive starts with password-->Car12345
+18:07:32 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+18:07:32 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+18:07:32 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+18:07:32 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+18:07:32 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+18:07:32 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+18:07:32 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:07:32 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:07:34 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container
+18:07:34 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-containerwas found
+18:07:34 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container h2
+18:07:34 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-container h2was found
+18:07:34 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:07:34 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:07:34 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:07:34 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:07:34 INFO  tests.TestBase - The end of test--->test2
+18:07:34 INFO  tests.TestBase - Start test--->test2
+18:07:34 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:34 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:34 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:34 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:35 INFO  tests.TestBase - Test Login Positive starts with email-->goodwin49@mail.ru
+18:07:35 INFO  tests.TestBase - Test Login Positive starts with password-->Car12345
+18:07:35 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+18:07:35 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+18:07:35 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+18:07:35 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+18:07:35 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+18:07:35 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+18:07:35 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:07:35 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:07:37 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container
+18:07:37 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-containerwas found
+18:07:37 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .dialog-container h2
+18:07:37 INFO  manager.MyListener - The element with locator-->By.cssSelector: .dialog-container h2was found
+18:07:37 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:07:37 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:07:37 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:07:37 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:07:37 INFO  tests.TestBase - The end of test--->test2
+18:07:37 INFO  tests.TestBase - Start test--->wrongEmail
+18:07:37 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:37 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:37 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:37 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:37 INFO  tests.TestBase - Test Login Negative wrong email starts with email-->goodwin49mail.ru
+18:07:37 INFO  tests.TestBase - Test Login Negative wrong email starts with password-->Car12345
+18:07:37 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+18:07:37 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+18:07:38 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+18:07:38 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+18:07:38 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+18:07:38 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+18:07:38 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:07:38 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:07:38 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[contains(text(),"It'snot")]
+18:07:38 INFO  manager.MyListener - The element with locator-->By.xpath: //div[contains(text(),"It'snot")]was found
+18:07:38 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:07:53 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:07:53 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:08:08 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:08:08 INFO  tests.TestBase - The end of test--->wrongEmail
+18:08:08 INFO  tests.TestBase - Start test--->wrongPass
+18:08:08 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:08:23 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:08:23 INFO  tests.TestBase - Test Login Negative wrong password starts with email-->goodwin49@mail.ru
+18:08:23 INFO  tests.TestBase - Test Login Negative wrong password starts with password-->ar12345
+18:08:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+18:08:23 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+18:08:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+18:08:23 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+18:08:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+18:08:23 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+18:08:24 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:08:24 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:08:24 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //mat-dialog-container
+18:08:25 INFO  manager.MyListener - The element with locator-->By.xpath: //mat-dialog-containerwas found
+18:08:25 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //mat-dialog-container//h2
+18:08:25 INFO  manager.MyListener - The element with locator-->By.xpath: //mat-dialog-container//h2was found
+18:08:25 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:08:40 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:08:40 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:08:40 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:08:40 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:08:40 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:08:40 INFO  tests.TestBase - The end of test--->wrongPass
+18:08:40 INFO  tests.TestBase - Start test--->regTestPositive
+18:08:40 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+18:08:55 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+18:08:55 INFO  tests.TestBase - Test Registration Positive starts with email--->wert@gmail.com
+18:08:55 INFO  tests.TestBase - Test Registration Positive starts with password--->Ww13456@
+18:08:55 INFO  tests.TestBase - Test Registration Positive starts with name--->Sonya
+18:08:55 INFO  tests.TestBase - Test Registration Positive starts with lastname--->Shu
+18:08:55 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href='/registration?url=%2Fsearch']
+18:08:55 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href='/registration?url=%2Fsearch']was found
+18:08:55 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='name']
+18:08:55 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='name']was found
+18:08:55 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='family-name']
+18:08:55 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='family-name']was found
+18:08:55 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='email']
+18:08:55 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='email']was found
+18:08:55 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='new-password']
+18:08:55 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='new-password']was found
+18:08:56 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+18:08:56 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+18:08:56 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //h2[text()='You are logged in success']
+18:09:11 ERROR manager.MyListener - Something went wrong
+18:09:11 ERROR manager.MyListener - no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='You are logged in success']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de77309563a3e1c1a187e606caf4490c
+*** Element info: {Using=xpath, value=//h2[text()='You are logged in success']}
+18:09:11 ERROR manager.MyListener - org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//h2[text()='You are logged in success']"}
+  (Session info: chrome=96.0.4664.45)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-44JBEN25', ip: '172.20.10.2', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 96.0.4664.45, chrome: {chromedriverVersion: 96.0.4664.45 (76e4c1bb2ab46..., userDataDir: C:\Users\gorbu\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:49176}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: de77309563a3e1c1a187e606caf4490c
+*** Element info: {Using=xpath, value=//h2[text()='You are logged in success']}
+18:09:11 INFO  manager.MyListener - This link to the screenshot with error-->src/test/resources/screenshots/screenshot-551.png
+18:09:11 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:09:11 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:09:11 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[text()='Ok']
+18:09:11 INFO  manager.MyListener - The element with locator-->By.xpath: //button[text()='Ok']was found
+18:09:11 INFO  tests.TestBase - The end of test--->regTestPositive

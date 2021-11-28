@@ -17,7 +17,10 @@ public class AddNewCar extends TestBase {
     @BeforeMethod(alwaysRun = true)
     public void precondition() {
         if (app.getHelperUser().isLoginPresent()) {
-            app.getHelperUser().login(new User().withEmail("goodwin49@mail.ru").withPassword("Car12345"));
+            logger.info("Test starts with emai-->" + app.email());
+            logger.info("Test starts with password-->" + app.password());
+            app.getHelperUser().login(new User().withEmail(app.email()).withPassword(app.password()));
+
         }
     }
 
@@ -46,7 +49,6 @@ public class AddNewCar extends TestBase {
                 .build();
 
 
-
         app.getCar().openCarForm();
         app.getCar().fillCarForm(car);
         app.getCar().attachedPhoto();
@@ -58,7 +60,7 @@ public class AddNewCar extends TestBase {
     }
 
     @Test
-    public void addNewCarTestPositive2(){
+    public void addNewCarTestPositive2() {
         int i = (int) ((System.currentTimeMillis() / 1000) % 36000);
         Car car = Car.builder()
                 .adress("Haifa")
@@ -89,9 +91,12 @@ public class AddNewCar extends TestBase {
         Assert.assertTrue(app.getCar().carAddedSuccessfull());
 
     }
+
     @AfterMethod(alwaysRun = true)
-    public void logout(){
+    public void logout() {
         app.getCar().ClickAddAnotherCar();
         app.getCar().logOut();
+        app.getCar().returnToMainPage();
+
     }
 }
