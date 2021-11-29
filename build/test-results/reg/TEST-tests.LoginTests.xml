@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.LoginTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-11-29T19:39:02" hostname="LAPTOP-44JBEN25" time="15.502">
+  <properties/>
+  <testcase name="wrongEmail" classname="tests.LoginTests" time="15.502"/>
+  <system-out><![CDATA[21:39:02 INFO  tests.TestBase - Start test--->wrongEmail
+21:39:02 INFO  tests.TestBase - Test Login Negative wrong email starts with email-->goodwin49mail.ru
+21:39:02 INFO  tests.TestBase - Test Login Negative wrong email starts with password-->Car12345
+21:39:02 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']/a[6]
+21:39:03 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']/a[6]was found
+21:39:03 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='username']
+21:39:03 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='username']was found
+21:39:03 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@autocomplete='current-password']
+21:39:03 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@autocomplete='current-password']was found
+21:39:03 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+21:39:03 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+21:39:03 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[contains(text(),"It'snot")]
+21:39:03 INFO  manager.MyListener - The element with locator-->By.xpath: //div[contains(text(),"It'snot")]was found
+21:39:03 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]
+21:39:18 INFO  manager.MyListener - The element with locator-->By.xpath: //a[@href="/logout?url=%2Fsearch"]was found
+21:39:18 INFO  tests.TestBase - The end of test--->wrongEmail
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
