@@ -40,6 +40,8 @@ task reg(type: Test){
             suites 'src/test/resources/add.xml'
         }else if (suite.equals('testng')){
             suites 'src/test/resources/testng.xml'}
+        else if (suite.equals('reg')){
+            suites 'src/test/resources/registration.xml'}
         else {
             suites 'src/test/resources/allTests.xml'
         }
