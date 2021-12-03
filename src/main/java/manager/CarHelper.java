@@ -107,8 +107,8 @@ public class CarHelper extends HelperBase {
     public void selectDate() {
         WebElement element = wd.findElement(By.xpath("(//input[@id='dates'])[1]"));
         element.click();
-        click(By.xpath("//div[text()= 29 ]"));
-        click(By.xpath("//div[text()= 30 ]"));
+        click(By.xpath("//div[text()= 10 ]"));
+        click(By.xpath("//div[text()= 15 ]"));
 
     }
 

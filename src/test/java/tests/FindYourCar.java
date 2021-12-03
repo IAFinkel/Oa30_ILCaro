@@ -9,7 +9,7 @@ public class FindYourCar extends TestBase {
     @Test
     public void findYourCarPositive() {
         app.getCar().typeCity("haifa");
-        app.getCar().typeDate("11/29/2021-11/30/2021");
+        app.getCar().typeDate("12/10/2021-12/15/2021");
         app.getHelperUser().submitRegistration();
         Assert.assertTrue(app.getCar().carsAreDisplayed());
 
@@ -27,7 +27,7 @@ public class FindYourCar extends TestBase {
     @Test
     public void findYourCarPositive3() {
         app.getCar().typeCity("haifa");
-        app.getCar().selectDate2("29-30");
+        app.getCar().selectDate2("10-15");
         app.getHelperUser().submitRegistration();
         Assert.assertTrue(app.getCar().carsAreDisplayed());
 
