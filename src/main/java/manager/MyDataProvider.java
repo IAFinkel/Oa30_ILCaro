@@ -33,7 +33,7 @@ public class MyDataProvider {
     public Iterator<Object[]> registrationDto() {
         List<Object[]> list = new ArrayList<>();
 
-        for (int j = 0; j < 2; j++) {
+        for (int j = 0; j < 1; j++) {
             int i = (int) (Math.random() * 1000);
             list.add(new Object[]{new User().withEmail("asdh" + i + "@gmail.com").withPassword("Qwery1234").withName("Ilia")
                     .withLastname("Petrov")});
