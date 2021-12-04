@@ -86,9 +86,10 @@ public class CarHelper extends HelperBase {
     }
 
     public void typeCity(String address) {
+        pause(5000);
         type(By.xpath("//input[@id='city']"), address);
         click(By.cssSelector("div.pac-item"));
-        pause(500);
+        pause(5000);
     }
 
     public void typeDate(String date) {

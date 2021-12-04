@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tests.FindYourCar" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-12-04T11:04:34" hostname="LAPTOP-44JBEN25" time="66.173">
+  <properties/>
+  <testcase name="findYourCarPositive" classname="tests.FindYourCar" time="12.146"/>
+  <testcase name="findYourCarPositive2" classname="tests.FindYourCar" time="12.101"/>
+  <testcase name="findYourCarPositive3" classname="tests.FindYourCar" time="12.166"/>
+  <testcase name="searchTestYear" classname="tests.FindYourCar" time="16.37"/>
+  <testcase name="searchTests" classname="tests.FindYourCar" time="12.378"/>
+  <system-out><![CDATA[13:04:34 INFO  tests.TestBase - Start test--->findYourCarPositive
+13:04:39 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+13:04:40 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+13:04:40 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+13:04:40 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+13:04:45 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+13:04:45 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+13:04:45 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+13:04:45 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+13:04:45 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .car-img-container.ng-star-inserted
+13:04:47 INFO  manager.MyListener - The element with locator-->By.cssSelector: .car-img-container.ng-star-insertedwas found
+13:04:47 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+13:04:47 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+13:04:47 INFO  tests.TestBase - The end of test--->findYourCarPositive
+13:04:47 INFO  tests.TestBase - Start test--->findYourCarPositive2
+13:04:52 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+13:04:52 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+13:04:52 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+13:04:53 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+13:04:58 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+13:04:58 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+13:04:58 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 10 ]
+13:04:58 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 10 ]was found
+13:04:58 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 15 ]
+13:04:58 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 15 ]was found
+13:04:58 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+13:04:58 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+13:04:58 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .car-img-container.ng-star-inserted
+13:04:59 INFO  manager.MyListener - The element with locator-->By.cssSelector: .car-img-container.ng-star-insertedwas found
+13:04:59 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+13:04:59 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+13:04:59 INFO  tests.TestBase - The end of test--->findYourCarPositive2
+13:04:59 INFO  tests.TestBase - Start test--->findYourCarPositive3
+13:05:04 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+13:05:04 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+13:05:04 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+13:05:05 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+13:05:10 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+13:05:10 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+13:05:10 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 10 ]
+13:05:10 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 10 ]was found
+13:05:10 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[text()= 15 ]
+13:05:10 INFO  manager.MyListener - The element with locator-->By.xpath: //div[text()= 15 ]was found
+13:05:10 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+13:05:10 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+13:05:10 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .car-img-container.ng-star-inserted
+13:05:11 INFO  manager.MyListener - The element with locator-->By.cssSelector: .car-img-container.ng-star-insertedwas found
+13:05:11 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+13:05:11 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+13:05:12 INFO  tests.TestBase - The end of test--->findYourCarPositive3
+13:05:12 INFO  tests.TestBase - Start test--->searchTestYear
+13:05:17 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+13:05:17 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+13:05:17 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+13:05:17 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+13:05:22 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+13:05:22 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+13:05:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[.=' 12 ']
+13:05:23 INFO  manager.MyListener - The element with locator-->By.xpath: //div[.=' 12 ']was found
+13:05:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+13:05:23 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+13:05:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+13:05:23 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+13:05:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+13:05:23 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+13:05:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+13:05:23 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+13:05:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+13:05:23 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+13:05:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+13:05:23 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+13:05:23 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[.=' 6 ']
+13:05:23 INFO  manager.MyListener - The element with locator-->By.xpath: //div[.=' 6 ']was found
+13:05:28 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+13:05:28 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+13:05:28 INFO  tests.TestBase - The end of test--->searchTestYear
+13:05:28 INFO  tests.TestBase - Start test--->searchTests
+13:05:33 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //input[@id='city']
+13:05:33 INFO  manager.MyListener - The element with locator-->By.xpath: //input[@id='city']was found
+13:05:33 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: div.pac-item
+13:05:34 INFO  manager.MyListener - The element with locator-->By.cssSelector: div.pac-itemwas found
+13:05:39 INFO  manager.MyListener - Start searching element by locator-->By.xpath: (//input[@id='dates'])[1]
+13:05:39 INFO  manager.MyListener - The element with locator-->By.xpath: (//input[@id='dates'])[1]was found
+13:05:39 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[.=' 15 ']
+13:05:39 INFO  manager.MyListener - The element with locator-->By.xpath: //div[.=' 15 ']was found
+13:05:39 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+13:05:39 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+13:05:39 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+13:05:39 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+13:05:39 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@aria-label='Next month']
+13:05:39 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@aria-label='Next month']was found
+13:05:39 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[.=' 10 ']
+13:05:39 INFO  manager.MyListener - The element with locator-->By.xpath: //div[.=' 10 ']was found
+13:05:39 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //button[@type='submit']
+13:05:40 INFO  manager.MyListener - The element with locator-->By.xpath: //button[@type='submit']was found
+13:05:40 INFO  manager.MyListener - Start searching element by locator-->By.cssSelector: .car-img-container.ng-star-inserted
+13:05:41 INFO  manager.MyListener - The element with locator-->By.cssSelector: .car-img-container.ng-star-insertedwas found
+13:05:41 INFO  manager.MyListener - Start searching element by locator-->By.xpath: //div[@class='header']//img[@alt='logo']
+13:05:41 INFO  manager.MyListener - The element with locator-->By.xpath: //div[@class='header']//img[@alt='logo']was found
+13:05:41 INFO  tests.TestBase - The end of test--->searchTests
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

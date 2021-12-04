@@ -46,7 +46,7 @@ public class RegistrationTest extends TestBase {
         app.getHelperUser().checkPolicy();
         app.getHelperUser().submitRegistration();
 
-        Assert.assertTrue(app.getHelperUser().RegistrationSucces());
+        Assert.assertTrue(app.getHelperUser().registrationSucces());
 
     }
 

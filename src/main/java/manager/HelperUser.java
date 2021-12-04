@@ -122,7 +122,7 @@ public class HelperUser extends HelperBase {
         click(By.xpath("//button[@type='submit']"));
     }
 
-    public boolean RegistrationSucces() {
+    public boolean registrationSucces() {
         WebDriverWait wait = new WebDriverWait(wd, 10);
         wait.until(ExpectedConditions.visibilityOf(wd.findElement(By.xpath("//h2[text()='You are logged in success']"))));
         return wd.findElement(By.xpath("//h2[text()='You are logged in success']")).getText().contains("success");
